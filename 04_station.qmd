@@ -1,0 +1,42 @@
+---
+title: "4. Station"
+toc: false
+sidebar: false
+---
+
+Ihr habt den Jungen Arbeiter gefunden? Warum er wohl so stramm steht? Musste er das zur Zeiten der DDR immer? 
+
+### Wie geht es zur nächsten Station?
+::: {.panel-tabset}
+
+## Erwachsenenfrage 
+_Das Erste und Ganze  
+sind völlig das gleiche,  
+sie sind vom lebendigen  
+Zweiten die Leiche._  
+
+_Den Lebenden fesselt  
+des Erdreichs Schwere,  
+der Tote fährt fröhlich  
+durch alle Meere._  
+
+Was ist das bloß? Unsere nächste Station führt zum einem Überrest der Lösung.
+
+## Kinderaufgabe
+Kennt ihr das Spiel: Wie alt bin ich? Das geht wie folgt. Ihr zählt alle Liebespärchen, alle Picknickdecken und Schwäne und Enten. So viel wie ihr zählt, so alt seid ihr. Werdet ihr bis zur nächsten Station so alt wie eure Eltern?
+
+## Tipp
+Die Lösung zur Rätselfrage befindet sich direkt vor, neben oder hinter dir.
+
+## Lösung
+Na habt ihr es herausgefunden? Es ist der Baum. Der Baumstumpf auf der linken Seite nach der Liegewiese im Uhrzeigersinn ist die Station 5. Er ist an der Ecke vor dem Blindenwohnheim. Auf der anderen Seite gibt es auch Baumstümpfe.
+
+```{r, echo=FALSE}
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=13.46534, lat=52.55564, popup="Station 5 der Schnitzeljagd für Familien am Weißen See")
+```
+
+:::
+

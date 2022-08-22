@@ -1,0 +1,29 @@
+---
+title: "5. Station"
+toc: false
+sidebar: false
+---
+
+Wie viele Menschen passen wohl auf die beiden Baumstümpfe? 
+
+### Wie geht es zur nächsten Station?
+::: {.panel-tabset}
+
+## Erwachsenenfrage
+Am Weißensee gibt es schon seit langer Zeit eine Blindenwohnstätte. Schätzfrage für die Erwachsenen: Wieviele Blinde und Sehbehinderte leben in Deutschland? 
+![Armbinde für Blinde](https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Blindenarmbinde.jpg/599px-Blindenarmbinde.jpg)
+
+## Kinderaufgabe
+Für die Kinder: Wie lange Könnt ihr blind laufen? Probiert es doch mal aus. Schafft ihr es bis es nach Pommes, Eis und Kaffe riecht? Kleinere Kinder laufen vielleicht an der Hand - größere Kinder schaffen es vielleicht schon per Kommando.
+
+## Lösung
+In Deutschland leben etwa 145 000 Blinde und 500 000 sehbehinderte Menschen. 
+
+Die nächste Station ist das Strandbad.
+```{r, echo=FALSE}
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=13.4655505, lat=52.5537360, popup="Station 6 der Schnitzeljagd für Familien am Weißen See")
+```
+:::

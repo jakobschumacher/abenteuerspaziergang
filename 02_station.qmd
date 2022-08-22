@@ -1,0 +1,42 @@
+---
+title: "2. Station"
+toc: false
+sidebar: false
+---
+
+Richtig! Die Lösung der Station 1 lautet: Es ist der Bodybuilder! Und hier macht er sich fit. Wer aus der Familie schafft sich an den Stäben entlangzuhangeln? Können die Erwachsenen noch einen Hüft-Aufschwung? Wer kennt die Fitness-Übung, die am komischsten aussieht?
+
+
+### Wie geht es zur nächsten Station?
+::: {.panel-tabset}
+
+## Frage
+Wo ist dieses Bild entstanden? 
+
+![Martin und Julia aus der Serie Weißsensee](images/serie_weissensee.png)
+
+
+Und die Bonusfrage: Was sagt Martin zu Julia?
+
+* Schau mir in die Augen Kleines!
+* Sie sind etwas Besonderes!
+* Ich bin kein kluger Mann, aber ich weiß, was Liebe ist!
+
+
+## Tipp
+Was ist das schwimmende "Etwas" zwischen beiden Gesichtern? 
+
+## Lösung
+Auf der Aussichtsplattform vor der Fontäne
+```{r, echo=FALSE}
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=13.46192, lat=52.55535, popup="Station 3 der Schnitzeljagd für Familien am Weißen See")
+ 
+```
+
+Martin sagt im übrigen: "Sie sind etwas Besonderes". Die anderen Zitate sind aus Casablanca ("Schau mir in die Augen kleines!") und aus Forrest Gump ("Ich bin kein kluger mann, aber ich weiß, was Liebe ist!")
+
+:::
+

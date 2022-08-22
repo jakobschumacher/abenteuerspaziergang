@@ -1,0 +1,19 @@
+---
+title: "Überblick"
+---
+
+Ein Ausflug mit der Familie zum Weißen See? Lust auf eine Schnitzeljagd? Dann los
+
+- Startpunkt: Los gehts am Spielplatz mit der Plansche. Der grundsätzliche Weg geht im Uhrzeigersinn. 
+- Endpunkt: Er endet auf dem südlichen Spielplatz am Weißen See. 
+- Dauer: Wenn man sich beeilt schafft man den Weg so in einer halben Stunde, mit viel Spielen und Pausen dazwischen kann es aber auch 1,5h dauern. 
+- Alter: Die Schnitzeljagd ist gestalte für Familien mit Kindern zwischn 5-10 Jahren. Die Eltern sind aber auch gefordert!
+- Verpflegung: Beim Standbad kann man einen guten Zwischenstopp machen. Richtig Essen kann man im Milchhäuschen, aber auch auf der Berliner Alle zwischen Albertinenstraße und Antonplatz
+- Mitnehmen: Neben den üblichen Utensilien können im Sommer Badesachen nützlich sein. Bei Schnee auch ein Schlitten.  
+
+```{r, echo=FALSE}
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=13.460881650876347, lat=52.5554927, popup="Starpunkt des Schnitzeljagd für Familien am Weißen See")
+```

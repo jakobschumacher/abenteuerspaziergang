@@ -1,0 +1,29 @@
+---
+title: "3. Station"
+toc: false
+sidebar: false
+---
+
+Hier auf der Aussichtsplattform treffen sich Julia und Martin in der Serie oft. An Sommersonntagen trifft sich hier abends eine Tanzgesellschaft. Auch sonst ist hier immer viel los und hier kann man super sitzen un den Leute beim Leben zuschauen! Das ist natürlich keine Option bei einer Schnitzeljagd, deswegen geht es weiter mit dieser Aufgabe: 
+
+### Wie geht es zur nächsten Station?
+::: {.panel-tabset}
+
+## Aufgabe
+Findet diese Figur auf dem Weg im Uhrzeigersinn um den Weißen See
+![„Junger Arbeiter“ im Park am Weißen See"](https://upload.wikimedia.org/wikipedia/commons/2/2d/Junger_Arbeiter.JPG)
+
+## Tipp
+Die Freiluftbühne ist in der Nähe
+
+## Lösung
+Die Figur der Station 4 befindet sich hier: 
+```{r, echo=FALSE}
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=13.46272, lat=52.55568, popup="Station 4 der Schnitzeljagd für Familien am Weißen See")
+ 
+```
+:::
+

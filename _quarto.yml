@@ -1,0 +1,46 @@
+project:
+  type: website
+
+website:
+  title: "Schnitzeljagd in Berlin Weißensee"
+  page-navigation: true
+  search: true
+  twitter-card: true
+  toc: false
+  navbar:
+    background: light
+    left:
+      - sidebar:weissersee
+    right:
+      - href: about.qmd
+        text: Über
+  sidebar:
+    - id: weissersee
+      title: "Rund um den Weißensee"
+      style: "floating"
+      contents:
+        - weissersee.qmd
+        - 01_station.qmd
+        - 02_station.qmd
+        - 03_station.qmd
+        - 04_station.qmd
+        - 05_station.qmd
+        - 06_station.qmd
+        - 07_station.qmd
+        - 08_station.qmd
+        - 09_station.qmd
+  page-footer:
+    left: "Schnitzeljagd in Berlin Weißensee"
+    right:
+      - href: about.qmd
+        text: "Über diese Seite"
+      - icon: github
+        href: https://github.com/
+format:
+  html:
+    light: flatly
+    css: styles.css
+    toc: true
+
+
+

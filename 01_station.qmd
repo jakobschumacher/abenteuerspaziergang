@@ -1,0 +1,41 @@
+---
+title: "1. Station"
+toc: false
+sidebar: false
+---
+
+Die Schnitzeljagd beginnt an der Plansche! Habt ihr alles fertig? Seid ihr bereit? Los geht es mit einem Rätselgedicht!
+
+### Wie geht es zur nächsten Station?
+::: {.panel-tabset}
+
+## Frage
+### Wo findet man diese Spezies?
+
+Was schwitzt denn hier? 
+Was schwitzt denn da?  
+Das ist kein Tier aus Afrika.   
+Es beißt, es kämpft, es zieht sich hoch,    
+Es pumpt, es schaukelt, lässt nicht los,   
+Es baut sich auf und müht sich ab,   
+Es schnauft und rackert und entsagt,   
+sich von dem Schnweinehund, dem inneren,  
+um sein Bauchspeck zu verringern?  
+
+## Tipp
+Vom Spielplatz aus ist es aber sichtbar. Es ist aber nicht direkt am See.
+
+## Lösung
+Es ist der Fitnessbereich direkt hinter dem Spielplatz. Mutige können über den Zaun klettern. Weniger Mutige laufen außenrum.
+
+```{r, echo=FALSE}
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=13.46129, lat=52.55604, popup="Station 2 der Schnitzeljagd für Familien am Weißen See")
+ 
+```
+:::
+
+
+

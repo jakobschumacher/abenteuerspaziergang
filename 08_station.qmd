@@ -1,0 +1,28 @@
+---
+title: "8. Station"
+toc: false
+sidebar: false
+---
+Hier ist das Schwanennest. Das Schwanennests ist eine kleine (trarige) Berühmtheit am Weisensee. Immer wieder wird das Nest Opfer von Vandalismus. Man sieht es zumeist nicht, wegen der vielen Gitter, die die Schwäne schützen sollen. Aber vielleicht seht ihr die Schwäne gleich auf dem Weißen See, wenn ihr die nächste Aufgabe erfüllt. 
+
+### Wie geht es zur nächsten Station?
+::: {.panel-tabset}
+
+## Aufgabe
+
+
+## Tipp
+
+
+## Lösung
+Die Station 8 befindet sich hier: 
+```{r, echo=FALSE}
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=13.46351, lat=52.55198, popup="Endpunkt der Schnitzeljagd für Familien am Weißen See")
+```
+
+
+:::
+
