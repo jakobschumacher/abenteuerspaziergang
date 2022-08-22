@@ -1,8 +1,9 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "Schnitzeljagd in Berlin Weißensee"
+  title: "Abenteuerspaziergang in Berlin Weißensee"
   page-navigation: true
   search: true
   twitter-card: true
