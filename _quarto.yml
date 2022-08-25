@@ -3,18 +3,18 @@ project:
   output-dir: docs
 
 website:
-  title: "Abenteuerspaziergang in Berlin Weißensee"
+  title: "Abenteuer Weißensee"
+  search: false
   page-navigation: true
-  search: true
   twitter-card: true
   toc: false
   navbar:
+    logo: "footprints.png"
     background: light
+    collapse-below: lg
     left:
       - sidebar:weissersee
-    right:
-      - href: about.qmd
-        text: Über
+
   sidebar:
     - id: weissersee
       title: "Rund um den Weißensee"

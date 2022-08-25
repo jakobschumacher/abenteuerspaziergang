@@ -1,6 +1,46 @@
 ---
-title: "Schnitzeljagd für Familien am Weißen See"
+pagetitle: "Schnitzeljagd für Familien in Berlin Weißensee"
 sidebar: false
+css: index.css
+page-layout: custom
+section-divs: false
 ---
+::: {.hero-banner}
 
-Ausflüge in Weißensee mit Kindern? Hier gibt es Routen für Familien mit kleinen Abenteurn, Aufgaben und Rätseln. 
+
+
+
+::: {.content-block}
+
+# Abenteuer für Familien
+
+### Ausflüge mit der Familie in Berlin Weißensee? 
+### Hier gibt es Routen mit Rätseln und Abenteuern. 
+
+![](images/feet2.png)
+
+::: {.hero-buttons}
+[Route um den Weißensee](weissersee.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+[Über](about.qmd){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
+::: 
+Sie wollen raus und wollen mit Ihren Kindern mehr als einen Spaziergang bieten? Sie vermissen Schnitzeljagden? Ihnen wird schnell langweilig? Dann sind Sie hier richtig.  
+
+Diese Seite bietet frei und kostenlose Schnitzeljagden in Berlin Weißensee an. 
+
+### Über diese Seite
+Diese Seite ist eine kostenlose Seite von einer Person aus Weisensee. Diese Seite ist open-source und für mit der GPL-Lizenz verwendbar.
+Diese Seite wäre nicht möglich ohne RStudio und Quarto. Das Logo kommt von <a href="https://www.flaticon.com/free-icons/feet" title="feet icons">Freepik - Flaticon</a>
+ 
+   
+     
+       
+       
+:::
+
+:::
+
+
+::: {.content-block}
+
+
+:::

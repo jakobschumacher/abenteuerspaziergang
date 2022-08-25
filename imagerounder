@@ -1,0 +1,29 @@
+#######################################################################
+# This short script rounds the corner of images with variables sizes
+#######################################################################
+
+# Prerequisites: imagemagick (install with: sudo apt install imagemagick)
+
+# Set the input and output variable name. You need to change this to the right name
+# Note that the output must end with .png
+variable_image_input=images/feet.jpg
+variable_image_output=images/feet.png
+
+
+
+# Get the height and width of the picture
+variable_width=$(identify -format "%w" $variable_image_input)
+variable_height=$(identify -format "%h" $variable_image_input)
+
+# If you want you can check the variables
+echo $variable_width
+echo $variable_height
+
+# Convert the picture
+convert -size "$variable_width"x"$variable_height" xc:none \
+        -draw "roundrectangle 0,0,$variable_width,$variable_height,100,100" png:- | \
+        convert $variable_image_input -matte - -compose DstIn -composite $variable_image_output
+
+# Show the result
+display $variable_image_output
+

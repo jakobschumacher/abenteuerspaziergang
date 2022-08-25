@@ -23,7 +23,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Schnitzeljagd für Familien am Weißen See",
+    "title": "Schnitzeljagd für Familien in Berlin Weißensee",
     "section": "",
     "text": "Ausflüge in Weißensee mit Kindern? Hier gibt es Routen für Familien mit kleinen Abenteurn, Aufgaben und Rätseln."
   },
@@ -68,5 +68,12 @@
     "title": "3. Station",
     "section": "",
     "text": "Wie geht es zur nächsten Station?\n\nAufgabeTippLösung\n\n\nFindet diese Figur auf dem Weg im Uhrzeigersinn um den Weißen See \n\n\nDie Freiluftbühne ist in der Nähe\n\n\nDie Figur der Station 4 befindet sich hier:"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Über",
+    "section": "",
+    "text": "Feet icons created by Freepik - Flaticon"
   }
 ]
